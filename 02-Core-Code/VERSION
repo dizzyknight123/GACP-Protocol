@@ -1,0 +1,24 @@
+# GACP Protocol Core Code Version
+
+## Current Version
+VERSION = "1.0.0"
+
+## Stability Status
+STATUS = "STABLE"
+
+## Release Date
+RELEASE_DATE = "2026-03-03"
+
+## Core Files Frozen
+- requirement_parser.py
+- contract_generator.py
+- task_router.py
+- trust_validator.py
+- agent_langchain.py
+- agent_crewai.py
+- agent_autogpt.py
+- gacp_agent_sdk.py
+- gacp_mvp.py
+
+## Note
+This version is considered stable and frozen. Any changes to core functionality must go through the GIP (GACP Improvement Proposal) process.

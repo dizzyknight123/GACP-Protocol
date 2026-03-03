@@ -1,0 +1,108 @@
+{
+  "contract_id": "contract_{timestamp}",
+  "type": "ecommerce_fulfillment",
+  "goal": "Complete e-commerce order fulfillment process",
+  "participating_agents": [
+    {
+      "agent_id": "order_agent",
+      "capabilities": ["process_order", "manage_order_status"],
+      "responsibilities": ["Process orders", "Update order status"]
+    },
+    {
+      "agent_id": "inventory_agent",
+      "capabilities": ["check_inventory", "update_inventory"],
+      "responsibilities": ["Check inventory", "Update inventory"]
+    },
+    {
+      "agent_id": "shipping_agent",
+      "capabilities": ["arrange_shipping", "track_delivery"],
+      "responsibilities": ["Arrange shipping", "Track delivery"]
+    },
+    {
+      "agent_id": "payment_agent",
+      "capabilities": ["process_payment", "handle_refunds"],
+      "responsibilities": ["Process payment", "Handle refunds"]
+    }
+  ],
+  "terms": {
+    "timeline": {
+      "order_processing_time": "Within 24 hours",
+      "shipping_time": "Within 48 hours",
+      "delivery_time": "Within 7 days"
+    },
+    "quality_standards": [
+      "Order processing is accurate",
+      "Inventory management is updated in a timely manner",
+      "Shipping arrangement is efficient and reliable",
+      "Payment processing is safe and convenient"
+    ],
+    "penalties": {
+      "late_delivery": "Compensate 5% of the order amount",
+      "inventory_shortage": "Prioritize restocking and compensate"
+    }
+  },
+  "collaboration_flow": [
+    {
+      "step": 1,
+      "agent_id": "order_agent",
+      "task": "Receive order",
+      "output": "Order confirmation"
+    },
+    {
+      "step": 2,
+      "agent_id": "payment_agent",
+      "task": "Process payment",
+      "output": "Payment confirmation"
+    },
+    {
+      "step": 3,
+      "agent_id": "inventory_agent",
+      "task": "Check inventory",
+      "output": "Inventory status"
+    },
+    {
+      "step": 4,
+      "agent_id": "shipping_agent",
+      "task": "Arrange shipping",
+      "output": "Shipping tracking number"
+    },
+    {
+      "step": 5,
+      "agent_id": "inventory_agent",
+      "task": "Update inventory",
+      "output": "Inventory update confirmation"
+    },
+    {
+      "step": 6,
+      "agent_id": "order_agent",
+      "task": "Update order status",
+      "output": "Order status update"
+    },
+    {
+      "step": 7,
+      "agent_id": "shipping_agent",
+      "task": "Track delivery",
+      "output": "Delivery status"
+    },
+    {
+      "step": 8,
+      "agent_id": "order_agent",
+      "task": "Confirm delivery",
+      "output": "Order completion"
+    }
+  ],
+  "validation_rules": [
+    "Order information is accurate",
+    "Payment processing is successful",
+    "Inventory is sufficient",
+    "Shipping is arranged in a timely manner",
+    "Delivery status is trackable"
+  ],
+  "output_format": {
+    "order_details": "Order information",
+    "payment_status": "Payment status",
+    "inventory_status": "Inventory status",
+    "shipping_info": "Shipping information",
+    "delivery_status": "Delivery status"
+  }
+}

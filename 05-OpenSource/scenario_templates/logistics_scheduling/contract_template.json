@@ -1,0 +1,109 @@
+{
+  "contract_id": "contract_{timestamp}",
+  "type": "logistics_scheduling",
+  "goal": "Complete logistics scheduling process",
+  "participating_agents": [
+    {
+      "agent_id": "order_agent",
+      "capabilities": ["process_order", "manage_order_status"],
+      "responsibilities": ["Process orders", "Update order status"]
+    },
+    {
+      "agent_id": "routing_agent",
+      "capabilities": ["plan_route", "optimize_route"],
+      "responsibilities": ["Plan routes", "Optimize routes"]
+    },
+    {
+      "agent_id": "fleet_agent",
+      "capabilities": ["manage_fleet", "assign_vehicles"],
+      "responsibilities": ["Manage fleet", "Assign vehicles"]
+    },
+    {
+      "agent_id": "tracking_agent",
+      "capabilities": ["track_shipment", "update_status"],
+      "responsibilities": ["Track shipments", "Update status"]
+    }
+  ],
+  "terms": {
+    "timeline": {
+      "order_processing_time": "Within 1 hour",
+      "route_planning_time": "Within 2 hours",
+      "vehicle_assignment_time": "Within 3 hours",
+      "delivery_time": "Within 24 hours"
+    },
+    "quality_standards": [
+      "Order processing is accurate",
+      "Route planning is optimal",
+      "Vehicle assignment is reasonable",
+      "Tracking information is real-time and accurate"
+    ],
+    "penalties": {
+      "late_delivery": "Compensate 10% of shipping fee",
+      "incorrect_routing": "Re-plan route and compensate"
+    }
+  },
+  "collaboration_flow": [
+    {
+      "step": 1,
+      "agent_id": "order_agent",
+      "task": "Receive order",
+      "output": "Order confirmation"
+    },
+    {
+      "step": 2,
+      "agent_id": "routing_agent",
+      "task": "Plan route",
+      "output": "Route plan"
+    },
+    {
+      "step": 3,
+      "agent_id": "routing_agent",
+      "task": "Optimize route",
+      "output": "Optimized route"
+    },
+    {
+      "step": 4,
+      "agent_id": "fleet_agent",
+      "task": "Assign vehicles",
+      "output": "Vehicle assignment"
+    },
+    {
+      "step": 5,
+      "agent_id": "order_agent",
+      "task": "Update order status",
+      "output": "Order status update"
+    },
+    {
+      "step": 6,
+      "agent_id": "tracking_agent",
+      "task": "Track shipment",
+      "output": "Tracking information"
+    },
+    {
+      "step": 7,
+      "agent_id": "tracking_agent",
+      "task": "Update status",
+      "output": "Status update"
+    },
+    {
+      "step": 8,
+      "agent_id": "order_agent",
+      "task": "Confirm delivery",
+      "output": "Order completion"
+    }
+  ],
+  "validation_rules": [
+    "Order information is accurate",
+    "Route planning is optimal",
+    "Vehicle assignment is reasonable",
+    "Tracking information is real-time",
+    "Delivery confirmation is timely"
+  ],
+  "output_format": {
+    "order_details": "Order information",
+    "route_info": "Route information",
+    "vehicle_assignment": "Vehicle assignment",
+    "tracking_info": "Tracking information",
+    "delivery_status": "Delivery status"
+  }
+}

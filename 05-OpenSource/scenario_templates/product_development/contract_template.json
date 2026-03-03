@@ -1,0 +1,121 @@
+{
+  "contract_id": "contract_{timestamp}",
+  "type": "product_development",
+  "goal": "Complete product development process",
+  "participating_agents": [
+    {
+      "agent_id": "design_agent",
+      "capabilities": ["create_design", "review_design"],
+      "responsibilities": ["Product design", "Design review"]
+    },
+    {
+      "agent_id": "development_agent",
+      "capabilities": ["write_code", "test_code"],
+      "responsibilities": ["Code development", "Code testing"]
+    },
+    {
+      "agent_id": "testing_agent",
+      "capabilities": ["run_tests", "report_bugs"],
+      "responsibilities": ["Run tests", "Report bugs"]
+    },
+    {
+      "agent_id": "deployment_agent",
+      "capabilities": ["deploy_code", "monitor_performance"],
+      "responsibilities": ["Deploy code", "Monitor performance"]
+    }
+  ],
+  "terms": {
+    "timeline": {
+      "design_phase": "7 days",
+      "development_phase": "14 days",
+      "testing_phase": "7 days",
+      "deployment_phase": "3 days"
+    },
+    "quality_standards": [
+      "Design meets user requirements",
+      "Code quality is high with no obvious bugs",
+      "Test coverage reaches 80% or more",
+      "Deployment process is smooth with no failures"
+    ],
+    "penalties": {
+      "delay": "Deduct project funds by day",
+      "low_quality": "Re-develop"
+    }
+  },
+  "collaboration_flow": [
+    {
+      "step": 1,
+      "agent_id": "design_agent",
+      "task": "Analyze requirements",
+      "output": "Requirements document"
+    },
+    {
+      "step": 2,
+      "agent_id": "design_agent",
+      "task": "Create product design",
+      "output": "Design document"
+    },
+    {
+      "step": 3,
+      "agent_id": "design_agent",
+      "task": "Review design",
+      "output": "Review result"
+    },
+    {
+      "step": 4,
+      "agent_id": "development_agent",
+      "task": "Write code",
+      "output": "Code implementation"
+    },
+    {
+      "step": 5,
+      "agent_id": "development_agent",
+      "task": "Run unit tests",
+      "output": "Test results"
+    },
+    {
+      "step": 6,
+      "agent_id": "testing_agent",
+      "task": "Run integration tests",
+      "output": "Integration test report"
+    },
+    {
+      "step": 7,
+      "agent_id": "testing_agent",
+      "task": "Run performance tests",
+      "output": "Performance test report"
+    },
+    {
+      "step": 8,
+      "agent_id": "deployment_agent",
+      "task": "Prepare deployment",
+      "output": "Deployment plan"
+    },
+    {
+      "step": 9,
+      "agent_id": "deployment_agent",
+      "task": "Deploy code",
+      "output": "Deployment result"
+    },
+    {
+      "step": 10,
+      "agent_id": "deployment_agent",
+      "task": "Monitor performance",
+      "output": "Monitoring report"
+    }
+  ],
+  "validation_rules": [
+    "Requirements document is complete",
+    "Design document meets requirements",
+    "Code quality is high",
+    "Test coverage is sufficient",
+    "Deployment is successful"
+  ],
+  "output_format": {
+    "design_documents": "Design documents",
+    "code_repository": "Code repository",
+    "test_reports": "Test reports",
+    "deployment_details": "Deployment details",
+    "performance_metrics": "Performance metrics"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "contract_id": "contract_{timestamp}",
+  "type": "office_collaboration",
+  "goal": "Complete office collaboration tasks",
+  "participating_agents": [
+    {
+      "agent_id": "calendar_agent",
+      "capabilities": ["schedule_meeting", "manage_calendar"],
+      "responsibilities": ["Schedule meeting times", "Send meeting invitations"]
+    },
+    {
+      "agent_id": "document_agent",
+      "capabilities": ["create_document", "edit_document"],
+      "responsibilities": ["Create meeting documents", "Organize meeting notes"]
+    },
+    {
+      "agent_id": "communication_agent",
+      "capabilities": ["send_email", "manage_messages"],
+      "responsibilities": ["Send meeting reminders", "Handle email communication"]
+    }
+  ],
+  "terms": {
+    "timeline": {
+      "start_time": "{start_time}",
+      "deadline": "{deadline}"
+    },
+    "quality_standards": [
+      "Meeting arrangements are accurate",
+      "Document content is complete and clear",
+      "Communication is timely and effective"
+    ],
+    "penalties": {
+      "late_delivery": "Deduct corresponding trust value",
+      "low_quality": "Re-execute task"
+    }
+  },
+  "collaboration_flow": [
+    {
+      "step": 1,
+      "agent_id": "calendar_agent",
+      "task": "Analyze meeting requirements",
+      "output": "Meeting time suggestions"
+    },
+    {
+      "step": 2,
+      "agent_id": "calendar_agent",
+      "task": "Schedule meeting time",
+      "output": "Meeting time confirmation"
+    },
+    {
+      "step": 3,
+      "agent_id": "communication_agent",
+      "task": "Send meeting invitations",
+      "output": "Invitation sent confirmation"
+    },
+    {
+      "step": 4,
+      "agent_id": "document_agent",
+      "task": "Create meeting document",
+      "output": "Meeting document"
+    },
+    {
+      "step": 5,
+      "agent_id": "communication_agent",
+      "task": "Send meeting reminders",
+      "output": "Reminder sent confirmation"
+    },
+    {
+      "step": 6,
+      "agent_id": "document_agent",
+      "task": "Organize meeting notes",
+      "output": "Meeting notes"
+    },
+    {
+      "step": 7,
+      "agent_id": "communication_agent",
+      "task": "Distribute meeting notes",
+      "output": "Distribution confirmation"
+    }
+  ],
+  "validation_rules": [
+    "Meeting time arrangement is reasonable",
+    "Document content is complete",
+    "Communication is timely and effective"
+  ],
+  "output_format": {
+    "meeting_details": "Meeting time, location, participants",
+    "documents": "Meeting documents and notes",
+    "communication_logs": "Communication records"
+  }
+}
