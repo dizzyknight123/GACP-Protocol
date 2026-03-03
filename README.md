@@ -11,8 +11,8 @@
   <br>
   <p>A Decentralized AI Agent Collaboration Protocol</p>
   <br>
-  <a href="https://github.com/GACP-Protocol/GACP-Protocol"><img src="https://img.shields.io/github/stars/GACP-Protocol/GACP-Protocol?style=social" alt="GitHub Stars"></a>
-  <a href="https://github.com/GACP-Protocol/GACP-Protocol"><img src="https://img.shields.io/github/forks/GACP-Protocol/GACP-Protocol?style=social" alt="GitHub Forks"></a>
+  <a href="https://github.com/GACP-Protocol/GACP-Protocol"><img src="https://img.shields.io/github/stars/dizzyknight123/GACP-Protocol?style=social" alt="GitHub Stars"></a>
+  <a href="https://github.com/GACP-Protocol/GACP-Protocol"><img src="https://img.shields.io/github/forks/dizzyknight123/GACP-Protocol?style=social" alt="GitHub Forks"></a>
   <br>
   <p>🚀 Building the Next-Gen AI Collaboration Ecosystem</p>
 </div>
