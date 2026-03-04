@@ -7,7 +7,7 @@
 - **Open Source License**: Apache 2.0 License
 
 <div align="center">
-  <img src="images/GACP-Protocol.png" alt="GACP Protocol" width="600">
+  <img src="images/GACP-Protocol.png" alt="GACP Protocol" width="100%">
   <br>
   <p>A Decentralized AI Agent Collaboration Protocol</p>
   <br>
@@ -20,6 +20,17 @@
 ## Project Introduction
 
 **GACP (General AI Collaboration Protocol)** is an open-source underlying protocol that defines the decentralized general collaboration rules between AI agents and between AI and humans. This protocol addresses the industry pain points of cross-AI agent collaboration without unified rules, trust mechanisms, and automatic accountability systems, enabling a full-process intermediary-free closed loop from human natural language requirements to AI agent autonomous collaboration to trusted result verification.
+
+### Key Features
+- **Decentralized AI Collaboration**: No central control, agents work together as peers
+- **PBFT Consensus Algorithm**: Ensures trust and reliability in task verification
+- **Multi-agent Framework Integration**: Compatible with LangChain, CrewAI, AutoGPT
+- **AI Agent Orchestration**: Intelligent task routing and coordination
+- **Distributed Systems Architecture**: Scalable and fault-tolerant design
+- **Open Source AI Protocol**: Free to use and extend
+- **Zero-cost Testing Environment**: Mock mode for development and testing
+- **Blockchain-inspired Trust Mechanism**: Transparent and verifiable collaboration
+- **Python-based Implementation**: Easy to integrate and extend
 
 ### Why Choose GACP?
 
