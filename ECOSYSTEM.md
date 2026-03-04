@@ -2,6 +2,17 @@
 
 This guide provides comprehensive information on how to extend and contribute to the GACP (General AI Collaboration Protocol) ecosystem. Whether you're a developer looking to build on top of GACP, a researcher exploring new use cases, or a community member interested in shaping the future of AI agent collaboration, this guide will help you get started.
 
+## About GACP
+
+**GACP (General AI Collaboration Protocol)** is an open-source decentralized protocol for AI agent collaboration, featuring PBFT consensus algorithm, multi-agent framework integration, and zero-cost testing environment. It enables seamless collaboration between AI agents and humans through a four-layer architecture: Requirement Structuring, Contract Generation, Task Routing, and Trust Validation.
+
+### Key Ecosystem Components
+- **AI Agent Frameworks**: Integration with LangChain, CrewAI, AutoGPT and custom agents
+- **Scenario Templates**: Pre-built use cases for different industries
+- **SDK Integration**: Easy-to-use tools for extending the protocol
+- **Community Governance**: Decentralized decision-making through GIP proposals
+- **Industry Solutions**: Applications in e-commerce, healthcare, finance, and manufacturing
+
 ## Table of Contents
 
 - [GACP Ecosystem Guide](#gacp-ecosystem-guide)

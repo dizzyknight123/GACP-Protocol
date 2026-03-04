@@ -80,7 +80,7 @@ This project is licensed under the Apache 2.0 License. See `LICENSE` file for de
 
 ## Contact
 
-- **GitHub**：https://github.com/GACP-Protocol
+- **GitHub**：https://github.com/dizzyknight123/GACP-Protocol
 - **Discord**：https://discord.gg/GACP
 - **Email**：1187885394@qq.com
 
