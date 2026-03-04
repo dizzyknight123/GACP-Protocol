@@ -7,7 +7,7 @@
 - **Open Source License**: Apache 2.0 License
 
 <div align="center">
-  <img src="images/GACP-Protocol.png" alt="GACP Protocol" width="100%">
+  <img src="exported_image.svg" alt="GACP Protocol" width="100%">
   <br>
   <p>A Decentralized AI Agent Collaboration Protocol</p>
   <br>

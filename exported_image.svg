@@ -1,0 +1,18 @@
+<svg width="800" height="220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="220" fill="#f87a59" rx="12"/>
+  <text x="400" y="90" font-size="52" font-weight="bold" fill="#fff" text-anchor="middle" font-family="Arial, sans-serif">GACP</text>
+  <text x="400" y="125" font-size="18" fill="#ffebe0" text-anchor="middle" font-family="Arial, sans-serif">General AI Collaboration Protocol</text>
+  <text x="400" y="155" font-size="15" fill="#ffffff" text-anchor="middle" font-family="Arial, sans-serif">The TCP/IP for AI Agents • Interoperable • Trustable • Decentralized</text>
+  <g transform="translate(250,175)">
+    <circle cx="0" cy="0" r="8" fill="#fff"/>
+    <ellipse cx="0" cy="10" rx="12" ry="10" fill="#fff"/>
+  </g>
+  <g transform="translate(400,175)">
+    <circle cx="0" cy="0" r="8" fill="#fff"/>
+    <ellipse cx="0" cy="10" rx="12" ry="10" fill="#fff"/>
+  </g>
+  <g transform="translate(550,175)">
+    <circle cx="0" cy="0" r="8" fill="#fff"/>
+    <ellipse cx="0" cy="10" rx="12" ry="10" fill="#fff"/>
+  </g>
+</svg>
