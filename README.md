@@ -47,7 +47,7 @@
 - Implement zero-cost implementable end-to-end solutions, leading paradigm innovation in the AI collaboration field
 
 ### Execution Principles
-1. **Core Rules Minimal and Self-consistent**: Prioritize ensuring logical integrity, reject redundant feature堆砌
+1. **Core Rules Minimal and Self-consistent**: Prioritize ensuring logical integrity, reject redundant feature bloat
 2. **100% Open Source and Zero Cost**: All deliverables are open source and free, no paid dependencies, no cloud server requirements
 3. **Backward Compatibility**: Core rules are permanently frozen once verified, only edge iterations
 4. **Quantifiable and Verifiable**: All task outputs must be quantifiable and verifiable, no ambiguous expressions
@@ -229,7 +229,7 @@ This software is provided by the copyright holders and contributors "as is" with
 - For illegal collection and processing of personal information
 - For sending spam or conducting network attacks
 - For generating illegal or non-compliant content
-- For implementing network违法犯罪 activities
+- For implementing network illegal and criminal activities
 - For highly regulated fields such as finance, healthcare, autonomous driving, and government affairs
 
 ## Privacy Compliance
